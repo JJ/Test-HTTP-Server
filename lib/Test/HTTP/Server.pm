@@ -1,15 +1,16 @@
 package Test::HTTP::Server;
+
 #
 # 2011 (c) Przemysław Iskra <sparky@pld-linux.org>
 #		This program is free software,
 # you may distribute it under the same terms as Perl.
 #
+use 5.006;
 use strict;
 use warnings;
 use IO::Socket;
 use POSIX ":sys_wait_h";
 
-our $VERSION = '0.03';
 
 sub _open_socket
 {
@@ -365,6 +366,7 @@ sub repeat
 }
 
 package Test::HTTP::Server::Request;
+
 our @ISA = qw(Test::HTTP::Server::Connection);
 
 1;
