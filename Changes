@@ -1,7 +1,8 @@
 Revision history for Perl module Test::HTTP::Server
 
 0.04 2016-03-07 NEILB
-    - Added this file
+    - Added LICENSE AND COPYRIGHT, and AUTHOR, sections to the pod
+    - Added this file (Changes)
 
 0.03 2011-05-15 SPARKY
     - use constant compatible with archaic perl

@@ -373,6 +373,8 @@ our @ISA = qw(Test::HTTP::Server::Connection);
 
 __END__
 
+=encoding UTF-8
+
 =head1 NAME
 
 Test::HTTP::Server - simple forking http server
@@ -423,5 +425,17 @@ Sends a pattern.
  system "wget", $server->uri . "repeat/2/foobar";
 
 =back
+
+=head1 AUTHOR
+
+Przemysław Iskra E<lt>sparky@cpan.orgE<gt>
+
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2011 by Przemysław Iskra.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut
