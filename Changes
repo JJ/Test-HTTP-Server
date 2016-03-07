@@ -5,6 +5,7 @@ Revision history for Perl module Test::HTTP::Server
     - Added echo, cookie, and repeat to the tests. CHOROBA++
     - Updated README to make clear it's not compatible with Windows.
       Thanks to Viviparous.
+    - Made the server ignore the GET query_parameters. Merged PR from GETTY++.
     - Added this file (Changes)
 
 0.03 2011-05-15 SPARKY
