@@ -282,7 +282,7 @@ sub out_all
     my $raw_uri = $self->{request}->[1];
     my @req_parts = split m#\?#, $raw_uri;
     my $req = shift @req_parts;
-	$req =~ s#^/##;
+	$req =~ s#^/+##;
 	my @args = map { uri_unescape $_ } split m#/#, $req;
 	my $func = shift @args;
 	$func = "index" unless defined $func and length $func;
