@@ -1,21 +1,29 @@
 
-    Test::HTTP::Server - a perl module for testing web clients
+#Test::HTTP::Server - a perl module for testing web clients
 
-This is a simple http server written to help with testing web clients.
+This is a simple HTTP server written to help with testing web clients.
 
-The module uses forking and signals.
-It therefore is not compatible with Windows.
+The module uses forking and signals from POSIX, which means Windows is not compatible with it.
 
-You can read a nicely formatted version of the documentation for
-this module online:
+## Documentation
 
-    https://metacpan.org/pod/Test::HTTP::Server
+A [nicely formatted version of the documentation for this module is online](https://metacpan.org/pod/Test::HTTP::Server)
 
+    
+## Install
 
 You should be able to install this using your usual method for installing
-modules from CPAN. If you don't have one, have a look at:
+modules from CPAN. That is
 
-    http://www.cpan.org/modules/INSTALL.html
+	cpanm Test::HTTP::Server
+	
+or
+
+	[sudo] cpan Test::HTTP::Server
+	
+	
+
+## Copyright notice
 
 This software is copyright (c) 2011 by Przemysław Iskra.
 
