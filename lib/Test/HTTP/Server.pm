@@ -387,6 +387,7 @@ Test::HTTP::Server - simple forking http server
 
  client_get( $server->uri . "my_request" );
 
+ # This will happen on a fork. So, no global variables.
  sub Test::HTTP::Server::Request::my_request
  {
      my $self = shift;
@@ -427,6 +428,13 @@ Sends a pattern.
  system "wget", $server->uri . "repeat/2/foobar";
 
 =back
+
+=head1 METHODS
+
+=item uri()
+
+Returns the URI for the server
+
 
 =head1 AUTHOR
 
