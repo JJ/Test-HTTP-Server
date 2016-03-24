@@ -431,10 +431,13 @@ Sends a pattern.
 
 =head1 METHODS
 
+=over
+
 =item uri()
 
 Returns the URI for the server
 
+=back 
 
 =head1 AUTHOR
 
